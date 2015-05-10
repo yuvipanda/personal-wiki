@@ -8,6 +8,12 @@ for this purpose.
 Hits the wikitech API and then classifies instances into different
 groups based on their names. Update classifier here when things
 change, to keep this useful.
+
+You can execute commands via pssh like:
+
+    pssh -t0 -p4 -h <hostgroup> '<command>'
+
+This sets parallelism to 4, tweak as necessary.
 """
 import json
 from urllib.request import urlopen
