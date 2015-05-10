@@ -34,7 +34,8 @@ classifier = {
     'master': 'master',
     'shadow': 'shadow',
     'mail': 'mail',
-    'static-': 'static'
+    'static-': 'static',
+    '': 'all'
 }
 
 # Initialize hostgroups with empty list
