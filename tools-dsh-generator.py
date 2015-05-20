@@ -23,6 +23,8 @@ from urllib.request import urlopen
 classifier = {
     'webgrid-': 'webgrid-all',
     'webgrid-lighttpd-': 'webgrid-lighttpd-all',
+    'webgrid-lighttpd-12': 'webgrid-lighttpd-precise',
+    'webgrid-lighttpd-14': 'webgrid-lighttpd-trusty',
     'webgrid-generic': 'webgrid-generic',
     'exec-': 'exec-all',
     'webproxy-': 'webproxy',
